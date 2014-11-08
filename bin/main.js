@@ -6,18 +6,16 @@ textParser(seedTextFilename);
 
 // 2. Report on the contents of the JSON file, and inspect it to make sure it
 // looks good.
-//var fs = require('fs');
+var fs = require('fs');
 
-//var jsonFilename = 'parsed_text/pirates_1.json';
-//var pirateSentences = JSON.parse(fs.readFileSync(jsonFilename));
-/*
+var jsonFilename = 'parsed_text/pirates_1.json';
+var pirateSentences = JSON.parse(fs.readFileSync(jsonFilename));
 for (var starterWord in pirateSentences) {
   if (pirateSentences.hasOwnProperty(starterWord)) {
     var count = pirateSentences[starterWord].length;
     console.log('The starter word ', starterWord, ' begins ', count, ' sentences.');
   }
 }
-*/
 
 // 3. Use the JSON data to generate a markdown file with a paragraph of text,
 // using a markov chain.
