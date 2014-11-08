@@ -48,10 +48,17 @@ printReportOnParsedData('parsed_text/everything.json');
 /*
 var generateFiction = require('../lib/generate_fiction');
 generateFiction({
-  jsonFilename: 'pirates_1',
-  pageTitle: 'Test: Pirates',
+  jsonFilename: 'aliens_1',
+  pageTitle: 'Test: Aliens',
   minimumWords: 500,
-  startsWith: 'piracy'
+  startsWith: 'the'
+});
+
+generateFiction({
+  jsonFilename: 'everything',
+  pageTitle: 'Test: Everything',
+  minimumWords: 500,
+  startsWith: 'she'
 });
 */
 
@@ -59,17 +66,43 @@ generateFiction({
 // Done: https://github.com/flarnie/nanogenmo-2014/commit/93fcc6f2766300256ffae044d40403c8701cfa40/ Done.
 
 // 5. Generate the entire 5 chapters of the novel.
-/*
 var generateFiction = require('../lib/generate_fiction');
 
 generateFiction({
   jsonFilename: 'pirates_1',
-  pageTitle: 'Test: Pirates',
-  minimumWords: 500,
+  pageTitle: 'Chapter 1: Pirates',
+  minimumWords: 10000,
   startsWith: 'piracy'
 });
-*/
+
+generateFiction({
+  jsonFilename: 'vikings_1',
+  pageTitle: 'Chapter 2: Vikings',
+  minimumWords: 10000,
+  startsWith: 'behold'
+});
+
+generateFiction({
+  jsonFilename: 'aliens_1',
+  pageTitle: 'Chapter 3: Aliens',
+  minimumWords: 10000,
+  startsWith: 'yet'
+});
+
+generateFiction({
+  jsonFilename: 'dinosaurs_1',
+  pageTitle: 'Chapter 4: Dinosaurs',
+  minimumWords: 10000,
+  startsWith: 'theres'
+});
+
+generateFiction({
+  jsonFilename: 'everything',
+  pageTitle: 'Chapter 5: Pirates, Vikings, Aliens, and Dinosaurs',
+  minimumWords: 10000,
+  startsWith: 'the'
+});
+
 // 6. Use grunt-markdown-pdf to turn the markdown pages into a pdf book.
 // https://www.npmjs.org/package/grunt-markdown-pdf
 //
-// Victory!
