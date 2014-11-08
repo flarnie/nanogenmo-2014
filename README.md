@@ -2,6 +2,19 @@
 
 Generating a novel using [markov chains][markov-chain].
 
+##[Chapter 1: Pirates][ch1]
+##[Chapter 2: Vikings][ch2]
+##[Chapter 3: Aliens][ch3]
+##[Chapter 4: Dinosaurs][ch4]
+##[Chapter 5: Pirates, Vikings, Aliens, and Dinosuars][ch5]
+
+[ch1]: ./generated_chapters/Chapter_1__Pirates.md
+[ch2]: ./generated_chapters/Chapter_2__Vikings.md
+[ch3]: ./generated_chapters/Chapter_3__Aliens.md
+[ch4]: ./generated_chapters/Chapter_4__Dinosuars.md
+[ch5]: ./generated_chapters/Chapter_5__Pirates,_Vikings,_Aliens,_and_Dinosaurs.md
+
+
 Seed Texts:
  * [The Pirate's Own Book][pirates-own-book] by Charles Ellms, 1837 ([pirates_1.txt][pirates_1])
  * [Treasure Island][treas-isle] by Robert Louis Stevenson, 1883 ([pirates_2.txt][pirates_2])
