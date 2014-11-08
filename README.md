@@ -30,9 +30,9 @@ Seed Texts:
 
 [markov-chain]: http://en.wikipedia.org/wiki/Markov_chain
 [pirates-own-book]: http://www.gutenberg.org/ebooks/12216
-[pirate_1]: ./seed_text/pirates_1.txt
+[pirates_1]: ./seed_text/pirates_1.txt
 [treas-isle]: http://www.gutenberg.org/ebooks/120
-[pirate_2]: ./seed_text/pirates_2.txt
+[pirates_2]: ./seed_text/pirates_2.txt
 [olaf-viking]: http://www.gutenberg.org/ebooks/9415
 [vikings_1]: ./seed_text/vikings_1.txt
 [vadrad-viking]: http://www.gutenberg.org/ebooks/5120
