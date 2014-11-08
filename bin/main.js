@@ -1,8 +1,10 @@
 // The Plan:
 // 1. Analyze a seed text and turn it into a JSON file
 var textParser = require('../lib/text_parser');
+
+// Generate pirates seedfile
 var seedTextFilename = 'pirates_1';
-textParser(seedTextFilename);
+textParser('pirates_1', 'pirates_2');
 
 // 2. Report on the contents of the JSON file, and inspect it to make sure it
 // looks good.
