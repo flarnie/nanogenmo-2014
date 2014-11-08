@@ -1,0 +1,27 @@
+{
+  "name": "NaNoGenMo-2014-Pirates-Vikings-Aliens-Dinosaurs",
+  "version": "0.0.0",
+  "description": "A novel generating project for NaNoGenMo using markov chains.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flarnie/nanogenmo-2014.git"
+  },
+  "keywords": [
+    "markov",
+    "nanogenmo",
+    "pirates",
+    "vikings",
+    "aliens",
+    "dinosaurs"
+  ],
+  "author": "flarnie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flarnie/nanogenmo-2014/issues"
+  },
+  "homepage": "https://github.com/flarnie/nanogenmo-2014"
+}
